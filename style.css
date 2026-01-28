@@ -10,7 +10,9 @@ body {
 }
 
 .sidebar {
+  position: relative;
   width: 500px;
+  height: 100vh;
   flex-shrink: 0;
 }
 
@@ -20,8 +22,42 @@ body {
   height: 100%;
 }
 
+.logo-background {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  background: rgb(0,0,0,0.3);
+  color: white;
+  font-size: 5rem;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  width: auto;
+  height: 100%;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+}
+
+.logo-type {
+  margin: 0;
+  flex: 1;
+}
+
 .background-caption {
   position: absolute;
-  top: 95vh;
-  right: 80vw;
+  bottom: 5px;
+  left: 150px;
+  color: white;
+}
+
+a {
+  color: white;
 }
