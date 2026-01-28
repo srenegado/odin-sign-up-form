@@ -1,4 +1,6 @@
 body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #343434;
   margin: 0;
   padding: 0;
   display: flex;
@@ -7,6 +9,44 @@ body {
 
 .sign-up-container {
   flex: 1;
+  background-color: #fcfcfc;
+}
+
+header {
+  padding: 48px;
+}
+
+.form-info-container {
+  background-color: white;
+  padding: 8px 48px;
+  filter: drop-shadow(0 5px 2px #00000015);
+  margin-bottom: 50px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 48px 16px 0;
+}
+
+label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: #5e5e5e;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  background-color: #fcfcfc;
+  height: 24px;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  padding: 4px;
 }
 
 .sidebar {
@@ -60,4 +100,24 @@ body {
 
 a {
   color: white;
+}
+
+.form-type {
+  padding: 0 48px;
+}
+
+button {
+  background-color: #596D48;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 48px;
+  filter: drop-shadow(5px 5px 2px #00000015);
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+span {
+  color: #596D48;
+  font-weight: 900;
 }
