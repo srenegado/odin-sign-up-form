@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+.sign-up-container {
+  flex: 1;
+}
+
+.sidebar {
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.background-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.background-caption {
+  position: absolute;
+  top: 95vh;
+  right: 80vw;
+}
