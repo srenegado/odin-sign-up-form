@@ -42,11 +42,22 @@ label {
 
 input {
   border: 1px solid #E5E7EB;
+  border-radius: 8px;
   background-color: #fcfcfc;
+  outline-style: none;
   height: 24px;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   padding: 4px;
+}
+
+input:focus {
+  filter: drop-shadow(5px 5px 2px #00000015);
+  border-color: blue;
+}
+
+input:invalid {
+  border-color: red;
 }
 
 .sidebar {
